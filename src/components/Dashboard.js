@@ -82,7 +82,7 @@ export default function Dashboard({ items }) {
       </div>
 
       <div className="grid gap-6 lg:grid-cols-3">
-        <div className="overflow-x-auto rounded-lg border border-gray-200 lg:col-span-2">
+        <div className="overflow-x-auto rounded-lg border border-gray-200 bg-white lg:col-span-2">
           <table className="w-full text-left text-sm">
             <thead className="bg-gray-50 text-gray-600">
               <tr>
@@ -130,7 +130,7 @@ export default function Dashboard({ items }) {
           </table>
         </div>
 
-        <div className="rounded-lg border border-gray-200 p-4">
+        <div className="rounded-lg border border-gray-200 bg-white p-4">
           {!selected ? (
             <p className="text-sm text-gray-500">
               Click an enquiry to see details and the suggested reply.
