@@ -2,7 +2,7 @@
 
 An AI-assisted CRM dashboard that triages incoming customer enquiries. It reads enquiries from a CSV (WhatsApp, Facebook, website and phone-call notes, in Bangla, Banglish and English), uses an LLM to classify and enrich each one, stores the results in Firestore, and shows them in a Next.js dashboard.
 
-**Live demo:** _add your Vercel link here_
+**Live demo:**[(https://crm-biai-seven.vercel.app/)]
 **Repository:** [(https://github.com/Mridu0w0/CRM_BIAI)]
 
 > All people and phone numbers in the sample data are fictional.
